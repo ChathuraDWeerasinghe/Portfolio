@@ -1,2 +1,0 @@
-31-05-2021
-fix for preloader issue sometimes not hide on mobile
