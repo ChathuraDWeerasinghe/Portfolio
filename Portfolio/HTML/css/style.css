@@ -1558,6 +1558,10 @@ a.btn-border:hover, .btn-border:hover{
 	-moz-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
 	box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.3);
 }
+/* a.btn-darker:hover{
+	background:rgba(255, 255, 255, 0.05);
+	color: #000000;
+} */
 a.btn-slider:hover:after {
 	color: #222;
 }
@@ -2983,6 +2987,20 @@ a.btn-left, a.btn-right {
 	line-height: 1.7em;
 	padding-left: 30px;
 }
+.testimonial-list li img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover; /* This property ensures that the image fills the entire circle area */
+	border: 5px solid #a200ff; /* This property adds a 5px black border around the circular image */
+	margin-bottom: 10px;
+  }
+  .testimonial-list li p {
+	  margin-bottom: 20px;
+	  font-weight: bold;
+	  display: block;
+	  font-size: 14px;
+  }
 .testimonial-list span {
 	font-weight: bold;
 	display: block;
