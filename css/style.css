@@ -2499,108 +2499,57 @@ span.teaser {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-  }
-  
-  .skill-note a {
+}
+.skill-note a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  
-  .skill-note i {
+}
+.skill-note i {
 	margin-right: 10px;
-  }
-  
-  .skill-note p {
+}
+.skill-note p {
 	margin: 0;
-  }
-
-
-
-
-
-  .reference-section {
+}
+.ref-title-box, .ref-sub-titles {
 	display: flex;
-	justify-content: center;
-  }
-  
-  .reference {
-	position: relative;
-	flex: 1;
-	margin: 10px;
-	overflow: hidden;
-  }
-  
-  .reference:hover img {
-	filter: blur(3px) brightness(70%);
-	transition: all 0.5s ease-in-out;
-  }
-  
-  .reference img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: all 0.5s ease-in-out;
-  }
-  
-  .reference .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
+	justify-content: left;
+	align-items: center;
+	text-align: center;
+}
+.ref-title-box span, .ref-sub-titles span{
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color: #fff;
-	padding: 10px;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .reference .overlay h3 {
-	font-size: 24px;
-	margin-bottom: 5px;
-  }
-  
-  .reference .overlay p {
-	font-size: 18px;
-	margin-bottom: 5px;
-  }
-  
-  .reference .overlay .social-icons {
+}
+.ref-title-box h5, .ref-sub-titles h5{
+	margin-right: 10px;
+}
+.ref-title-box p, .ref-sub-titles p{
+	margin: 0;
+}
+.ref-social-icons {
 	display: flex;
-	justify-content: center;
-	margin-top: 10px;
-  }
-  
-  .reference .overlay .social-icons a {
-	color: #fff;
-	font-size: 24px;
-	margin: 0 10px;
-	transition: all 0.5s ease-in-out;
-  }
-  
-  .reference .overlay .social-icons a:hover {
-	transform: scale(1.2);
-  }
-  
-  .reference .overlay i.fa-facebook {
-	color: #3b5998;
-  }
-  
-  .reference .overlay i.fa-linkedin {
-	color: #0e76a8;
-  }
+}
+.ref-social-icons a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	background-color: transparent;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	color: #ffffff;
+	transition: all 0.3s ease-in-out;
+	margin-top: 20px;
+}
+.ref-social-icons a:hover {
+	background-color: #fff;
+	color: #d32f2f;
+}
   
 
-  
-  
-  
-  
-	
-  
 
 
 /* ================================================== */
