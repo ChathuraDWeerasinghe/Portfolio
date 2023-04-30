@@ -5131,11 +5131,11 @@ a.read_more i {
 	opacity: 0;
 }
 .owl-custom-nav .btn-next {
-	right: -50px;
+	right: 0px;
 	position: absolute;
 }
 .owl-custom-nav .btn-prev {
-	left: -50px;
+	left: 0px;
 	position: absolute;
 }
 .pf-hover:hover .btn-next {
