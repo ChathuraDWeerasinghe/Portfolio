@@ -352,6 +352,22 @@ header.de_header_2.smaller .info {
 	padding: 160px 0 150px 0;
 	text-align: center;
 }
+/* about me page background image size controller along with the screen sizes */
+/* Extra Large devices (1200px - 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #subheader {
+    padding: 130px 0 130px 0;
+  }
+}
+
+/* Extra Extra Large devices (1400px and up) */
+@media (min-width: 1400px) {
+  #subheader {
+    padding: 160px 0 150px 0;
+  }
+}
+
+
 #subheader.text-light{
 	color:#dddddd;
 }
