@@ -2585,7 +2585,7 @@ span.teaser {
 }
 .interest-block h4 {
 	position: absolute;
-	top: 50%;
+	top: 85%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: #fff;
@@ -2609,9 +2609,6 @@ span.teaser {
 	transition: transform 0.3s ease-in-out;
 }
   
-  
-
-
 
   
 
