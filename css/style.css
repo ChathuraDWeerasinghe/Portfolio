@@ -2548,6 +2548,71 @@ span.teaser {
 	background-color: #fff;
 	color: #d32f2f;
 }
+
+
+
+/* INTERESTS CSS */
+.interests {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.interest-block {
+	margin: 10px;
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	border: 5px solid #d52e2e;
+	border-radius: 5%;
+	position: relative;
+	overflow: hidden;
+}
+.interest-block:hover .img-container img {
+	transform: scale(1.1);
+}
+.interest-block::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+.interest-block:hover::before {
+	opacity: 1;
+}
+.interest-block h4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	z-index: 2;
+	text-align: center;
+	margin: 0;
+}
+.img-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 0;
+}
+.img-container img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition: transform 0.3s ease-in-out;
+}
+  
+  
+
+
+
   
 
 
