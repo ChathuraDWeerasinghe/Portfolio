@@ -1134,9 +1134,9 @@ header.header-solid.header-light {
 	height: auto;
 }
 .de_light #contact_form input[type=text], .de_light #contact_form textarea, .de_light #contact_form input[type=email], .de_light #search {
-	border: solid 1px #ddd;
+	border: solid 1px #6a00ff;
 	background: none;
-	color: #333 !important;
+	color: #ffffff !important;
 }
 #contact_form input[placeholder], #contact_form textarea[placeholder] {
 	color: #eee;
@@ -4718,6 +4718,10 @@ p.intro {
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 }
+.form-control {
+	color: #fff;
+  }
+  
 .owl-arrow {
 	position: absolute;
 	z-index: 100;
