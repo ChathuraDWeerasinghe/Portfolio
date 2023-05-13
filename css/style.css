@@ -4010,7 +4010,7 @@ a, a:hover, .test-column, .test-column:hover {
 	margin-left: 20px;
 }
 .de_light .project-info {
-	color: #606060;
+	color: #000;
 }
 .project-info h2 {
 	margin-top: 0;
@@ -4025,11 +4025,13 @@ a, a:hover, .test-column, .test-column:hover {
 	padding: 20px;
 	background: rgba(0, 0, 0, .5);
 	margin-bottom: 30px;
+	border-radius: 5%;
 }
 .de_light .project-info .details {
-	background:#f5f6f5;
+	background:#f7f3ff;
+	border: solid 2px #3700B3;
 }
-.project-infoproject-info span {
+.project-info .project-info span {
 	display: block;
 }
 .project-info span.title {
@@ -4066,7 +4068,7 @@ a, a:hover, .test-column, .test-column:hover {
 	font-size: 14px;
 	font-weight: bold;
 	display: block;
-	letter-spacing:0;
+	letter-spacing: 0;
 }
 .info-details .info-text {
 	margin-bottom: 20px;
@@ -6374,4 +6376,10 @@ a.btn-slider:hover {
 	.timeline .tl-block .tl-time h4{
 		font-size: 14px;
 	}
+}
+
+/* project page dark */
+.dark{
+	background-color: #0A0A0A;
+	border-radius: 15px;
 }
