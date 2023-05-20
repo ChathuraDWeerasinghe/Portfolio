@@ -4197,6 +4197,12 @@ a.img-icon-zoom {
 	-ms-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
+.section-project{
+	border: 10px solid rgb(166, 0, 255);
+	border-radius: 50px;
+	border-bottom: none;
+	border-top: none;
+}
 
 /* ================================================== */
 
