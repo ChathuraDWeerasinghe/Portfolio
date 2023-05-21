@@ -31,6 +31,17 @@
 
     <!-- favicon link for the google search result -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("0YT8miTs7Yeu4c4gi");
+    })();
+    </script>
+
 </head>
 
 <body class="page-contact">
@@ -153,10 +164,10 @@
 
                                     <div class="col-md-12 text-center">
                                         <div id='submit'>
-                                            <input type='submit' id='send_message' value='Submit Form' class="btn btn-border light">
+                                            <input type='submit' id='send_message' value='Send' class="btn btn-border light" onclick="sendMail()">
                                         </div>
-                                        <div id='mail_success' class='success'>Your message has been sent successfully.</div>
-                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                        <!-- <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div> -->
                                     </div>
                             </form>
 					</div>
@@ -249,6 +260,7 @@
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/designesia.js"></script>
 	<script src="js/validation.js"></script>
+	<script src="js/emailjs.js"></script>
 
 </body>
 </html>
